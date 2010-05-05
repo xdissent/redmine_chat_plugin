@@ -1,4 +1,4 @@
-<%= juggernaut(:channels => [@chat_room.id], :client_id => User.current.id, :debug => true) %>
+<%= juggernaut(:channels => [@chat_room.id], :client_id => User.current.id, :debug => true, :swf_address => "/redmine/juggernaut/juggernaut.swf", :ei_swf_address => "/redmine/juggernaut/expressinstall.swf") %>
 
 <p><%= link_to 'Back', {:action => 'index'} %></p>
 
